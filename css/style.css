@@ -31,7 +31,7 @@ h3 {
 }
 
 p {
-  font-size: 19px;
+  font-size: 18px;
   font-weight: 400;
 }
 
@@ -76,7 +76,7 @@ button {
 .header {
   display: flex;
   background-color: #303a52;
-  padding: 40px;
+  padding: 40px 40px 0;
 }
 
 .logo {
@@ -129,12 +129,42 @@ img {
   justify-content: space-between;
   width: 1200px;
   margin-left: 40px;
+  padding-bottom: 50px;
 }
 
 .info-containers {
-  width: 350px;
-  height: 300px;
+  width: 330px;
+  height: 220px;
   background-color: #404e6e;
   border-radius: 30px;
   color: #ffffff;
+  padding: 20px;
+}
+
+.info-containers h3 {
+  margin-bottom: 20px;
+}
+
+.learn-btn {
+  margin-top: 20px;
+  background-color: #fc5d94;
+  color: #ffffff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 15px;
+  cursor: pointer;
+}
+
+.learn-btn:hover {
+  background-color: #dd5686;
+}
+
+.other-info {
+  display: flex;
+  justify-content: space-between;
+  padding-right: 50px;
+}
+
+.pink-text {
+  color: #fc5d94;
 }
