@@ -14,3 +14,59 @@ ul {
 li {
   list-style-type: none;
 }
+
+/* navbar section  */
+.navbar {
+  height: 100%;
+  width: 150px;
+  background-color: #212b43;
+  position: fixed;
+  top: 0;
+  left: 0;
+  overflow-x: hidden;
+}
+
+.dot {
+  height: 94px;
+  width: 94px;
+  border-radius: 50%;
+  background-color: #707070;
+  display: block;
+  margin: 40px 20px 0;
+}
+
+.nav-items {
+  margin: 24px;
+  color: #ffffff;
+}
+
+.main {
+  margin-left: 150px;
+}
+
+/* Header section  */
+
+.header {
+  display: flex;
+  background-color: #303a52;
+  padding: 40px;
+}
+
+.logo {
+  height: 94px;
+  width: 94px;
+  border-radius: 50%;
+  background-color: #000000;
+  display: block;
+}
+
+.head-content {
+  margin: 5px 50px;
+  color: #ffffff;
+}
+
+.fa-caret-left {
+  color: #fc5d94;
+  font-size: 94px;
+  margin-left: 22px;
+}
