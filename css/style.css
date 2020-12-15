@@ -6,6 +6,10 @@
   font-family: "Nunito", sans-serif;
 }
 
+body {
+  height: 100vh;
+}
+
 ul {
   margin: 0;
   padding: 0;
@@ -59,11 +63,6 @@ button {
   background-color: #303a52;
   display: block;
   margin: 40px 20px 0;
-}
-
-.nav-items {
-  margin: 24px;
-  color: #ffffff;
 }
 
 .nav-items:hover {
