@@ -66,6 +66,10 @@ button {
   color: #ffffff;
 }
 
+.nav-items:hover {
+  background-color: #506188;
+}
+
 .main {
   margin-left: 150px;
   background-color: #303a52;
